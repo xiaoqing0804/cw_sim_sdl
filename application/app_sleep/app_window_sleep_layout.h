@@ -1,0 +1,32 @@
+#ifndef __APP_WINDOW_SLEEP_LAYOUT_H__
+#define __APP_WINDOW_SLEEP_LAYOUT_H__
+
+#include "feature_all.h"
+#include "gui_core_all.h"
+
+typedef enum
+{
+	SLEEP_LAYOUT_ID_NONE,
+
+	SLEEP_LAYOUT_ID_BG,
+	SLEEP_LAYOUT_ID_BG1,
+
+	SLEEP_LAYOUT_ID_H,
+	SLEEP_LAYOUT_ID_M,
+
+	SLEEP_LAYOUT_ID_HOUR,
+	SLEEP_LAYOUT_ID_MIN,
+	
+	SLEEP_LAYOUT_ID_LIGHT,
+	SLEEP_LAYOUT_ID_DEEP,
+	SLEEP_LAYOUT_ID_DEEP_LOGO,
+	SLEEP_LAYOUT_ID_LIGHT_LOGO,
+
+	SLEEP_LAYOUT_ID_NO_DATA,
+	SLEEP_LAYOUT_ID_NO_TXT,
+
+};
+
+extern const gui_screen_struct gui_screen_sleep;
+
+#endif
