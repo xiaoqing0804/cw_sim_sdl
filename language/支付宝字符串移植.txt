@@ -1,0 +1,86 @@
+
+	STRING_ALIPAY,
+	STRING_ALIPAY_OK,
+	STRING_ALIPAY_CANCEL,
+	STRING_ALIPAY_BIND_OK,
+	STRING_ALIPAY_BIND_FAIL,
+	STRING_ALIPAY_BINDING,
+	STRING_ALIPAY_UNBIND,
+	STRING_ALIPAY_UNBIND_INFO,
+	STRING_ALIPAY_UNBIND_OK,
+	STRING_ALIPAY_APPBIND,
+	STRING_ALIPAY_APPHELPER,
+	STRING_ALIPAY_APPBINDED,
+	STRING_ALIPAY_USERNAME,
+	STRING_ALIPAY_NICKNAME,
+	STRING_ALIPAY_PAYCODE,
+	STRING_ALIPAY_SETTING,
+	STRING_ALIPAY_SWT_QRCODE,
+	STRING_ALIPAY_SWT_BARCODE,
+	STRING_ALIPAY_HELPER,
+	STRING_ALIPAY_SYNC_TIME,
+	STRING_ALIPAY_APPACTIVE,
+	STRING_ALIPAY_APPINFO,
+	STRING_ALIPAY_BIND_TERM,
+	STRING_ALIPAY_BIND_ERR,
+	STRING_ALIPAY_QUIT,
+	STRING_ALIPAY_REBIND,
+	STRING_ALIPAY_APPLINKED,
+
+
+	{STRING_ALIPAY,  "支付宝", 0},
+	{STRING_ALIPAY_OK,  "确认", 0},
+	{STRING_ALIPAY_CANCEL,  "取消", 0},
+	{STRING_ALIPAY_BIND_OK,  "绑定成功", 0},
+	{STRING_ALIPAY_BIND_FAIL,  "绑定失败", 0},
+	{STRING_ALIPAY_BINDING,  "正在绑定", 0},
+	{STRING_ALIPAY_QUIT, "继续退出", 0},
+	{STRING_ALIPAY_REBIND, "去绑定", 0},
+	{STRING_ALIPAY_BIND_TERM,  "未完成绑定", 0},
+	{STRING_ALIPAY_BIND_ERR,  "当前未完成绑定，下次进来需要重新扫码绑定",  0},
+	{STRING_ALIPAY_UNBIND,  "解除绑定",  0},
+	{STRING_ALIPAY_UNBIND_INFO,  "解绑后将无法使用支付宝各项功能，确认解绑？",  0},
+	{STRING_ALIPAY_UNBIND_OK, "设备侧已解绑，请在手机支付宝上解绑该设备，完成解绑",  0},
+	{STRING_ALIPAY_APPBIND,   "使用支付宝扫码绑定", 0},
+	{STRING_ALIPAY_APPHELPER, "使用支付宝扫码获取帮助", 0},
+	{STRING_ALIPAY_APPBINDED, "设备已绑定", 0},
+	{STRING_ALIPAY_USERNAME,  "用户名：", 0},
+	{STRING_ALIPAY_NICKNAME,  "昵称：", 0},
+	{STRING_ALIPAY_HELPER,    "帮助", 0},
+	{STRING_ALIPAY_SETTING,   "设置", 0},
+	{STRING_ALIPAY_PAYCODE,   "付款码", 0},
+	{STRING_ALIPAY_SWT_QRCODE, "切换二维码", 0},
+	{STRING_ALIPAY_SWT_BARCODE,"切换条形码", 0},
+	{STRING_ALIPAY_SYNC_TIME, "手表时间没有更新，请连接APP同步手机时间", 0},
+	{STRING_ALIPAY_APPACTIVE, "请使用APP绑定设备后才能使用", 0},
+	{STRING_ALIPAY_APPLINKED, "该设备存在安全风险，请联系手表厂商提供支持", 0},
+	{STRING_ALIPAY_APPINFO, "请打开手机支付宝，扫描绑定码绑定设备，或者查看《智能设备服务协议》", 0},
+
+
+支付宝
+确认
+取消
+绑定成功
+绑定失败
+正在绑定
+继续退出
+去绑定
+未完成绑定
+当前未完成绑定，下次进来需要重新扫码绑定
+解除绑定
+解绑后将无法使用支付宝各项功能，确认解绑？
+设备侧已解绑，请在手机支付宝上解绑该设备，完成解绑
+使用支付宝扫码绑定
+使用支付宝扫码获取帮助
+设备已绑定
+用户名：
+昵称：
+帮助
+设置
+付款码
+切换二维码
+切换条形码
+手表时间没有更新，请连接APP同步手机时间
+请使用APP绑定设备后才能使用
+该设备存在安全风险，请联系手表厂商提供支持
+请打开手机支付宝，扫描绑定码绑定设备，或者查看《智能设备服务协议》

@@ -13,6 +13,21 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{2548c03c-a29e-4770-b50d-19650e746025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui_app">
+      <UniqueIdentifier>{2eac2826-2693-4b22-b563-a605ff7eb3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{53d210ef-2e3f-4282-9229-2eab00743b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="language">
+      <UniqueIdentifier>{2d2078fe-0658-4935-97a5-0fb568008dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="picture">
+      <UniqueIdentifier>{02fdee0a-dadd-40a7-a603-cbb7fd98936c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\begin_code.h">
@@ -288,10 +303,2922 @@
     <ClInclude Include="..\include\SDL_vulkan.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\gui_lib\barcode_lib\barcode_code128.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\barcode_lib\barcode_code128c.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\font_lib\font_bound.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\font_lib\font_cfont.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\font_lib\font_convert.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\font_lib\font_lang.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\font_lib\font_lang_arabic.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_config_main_window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_download_watchface.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_key.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_lowpower.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_password.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_touch.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_touch_gesture.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_touch_gesture_swipe.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_touch_gesture_swipe_cover.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_touch_gesture_tween.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_window_flasherr.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\application\application_window_pop.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_barcode.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_canvas.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_character.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_dlwf.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_lib.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_aa.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_picture.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_pointer.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_draw_qrcode.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_render.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_render_cache.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_render_g2d.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_screen_g2d.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_screen_part.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\display\gui_display_screen_whole.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\drivers\gui_drivers_display.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\drivers\gui_drivers_flash.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\drivers\gui_drivers_lcd.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\events\gui_event_core.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\events\gui_event_core_id.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\events\gui_event_core_list.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_all.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_define.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_layout.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_screen.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_screen_control.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_surface.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_touch.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_type.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\gui_core_window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_barcode.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_canvas.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_clock.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_image.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_list.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_number.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_progress.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_label.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_label_scroll.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_layout_cellular.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_layout_item.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_pointer.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_progress_bar.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_qrcode.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_scale.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_box_textbox.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_cache.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_animation.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_base.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_batt_icon.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_batt_label.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_bt_icon.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_chart.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_date.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_image_9slice.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_ring.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_scrolltext.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_switch.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_time.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_apple_cellular.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_card.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_cellular.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_flow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_gridview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_listview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_loop.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_matrix.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_pageview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_center.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_center_config.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_config.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_scroll.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_tween_angle.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_layout_tween_position.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_node.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_node_scale.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\surface\gui_surface_scale.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_apple_cellular.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_card.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_cellular.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_flow.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_gridview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_listview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_loop.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_matrix.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_pageview.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_rebound.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_ring.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_ring_center.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\touch\gui_touch_layout_scroll.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\utility\gui_util_screen.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\utility\gui_util_text_string.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\utility\gui_util_tween.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\window\gui_window.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\window\gui_window_history.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\window\gui_window_history_cache.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\gui_lib\window\gui_window_swipe.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\modules.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_bitstream.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_config.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_inner.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_mask.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_mmask.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_mqrspec.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_qrinput.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_qrspec.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_rsecc.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui_lib\qrencode_lib\qrencode_split.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\application_config\application_config.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\application_config\application_config_app_info.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\application_config\application_config_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_about\app_window_about.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_about\app_window_about_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_about\app_window_about_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_clock.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_clock_set.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_clock_set_data.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_clock_set_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_drink.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_sedentary.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alarm\app_window_alarm_target_finish.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_barcode.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_bind.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_common.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_helper.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_loading.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_menu.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_qrcode.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_alipay\app_window_alipay_startup.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_always\app_window_aod_dial.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_always\app_window_aod_dial_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_always\app_window_aod_dial_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_battery\app_window_battery.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_battery\app_window_battery_chart.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_battery\app_window_battery_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_battery\app_window_battery_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_bp\app_window_bp.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_bp\app_window_bp_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_bp\app_window_bp_measur.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_bp\app_window_BP_measur_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_animate.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_hz.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_hz_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_hz_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_start.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_start_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_start_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_time_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_time_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_braeth\app_window_breath_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_brightness\app_window_brightness.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_brightness\app_window_brightness_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_brightness\app_window_brightness_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calculator\app_window_calculator.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calculator\app_window_calculator_convert.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calculator\app_window_calculator_key.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calculator\app_window_calculator_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calculator\app_window_calculator_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calendar\app_window_calendar.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calendar\app_window_calendar_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_calendar\app_window_calendar_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\app_window_call.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\app_window_call_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\app_window_call_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\clog\app_window_call_clog.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\clog\app_window_call_clog_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\clog\app_window_call_clog_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\comming\app_window_call_comming.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\comming\app_window_call_comming_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\comming\app_window_call_comming_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\dial\app_window_call_dial.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\dial\app_window_call_dial_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\dial\app_window_call_dial_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\list\app_window_call_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\list\app_window_call_list_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\outgoing\app_window_call_outgoing.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\outgoing\app_window_call_outgoing_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\outgoing\app_window_call_outgoing_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\phb\app_window_call_phonebook.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\phb\app_window_call_phonebook_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\phb\app_window_call_phonebook_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\reply\app_window_call_reply.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\reply\app_window_call_reply_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\vol\app_window_call_vol.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_call\vol\app_window_call_vol_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger\app_window_charger.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger\app_window_charger_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger\app_window_charger_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger_lamp\app_window_charger_lamp.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger_lamp\app_window_charger_lamp_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger_lamp\app_window_charger_set.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_charger_lamp\app_window_charger_set_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_my_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_my_time_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_time_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_time_out.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_time_out_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_countdown\app_window_countdown_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_cover_bg\app_window_cover_bg.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_cover_bg\app_window_cover_bg_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_cover_bg\app_window_cover_bg_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb_setting_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb_setting_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_disturb\app_window_disturb_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findphone.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findphone_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findphone_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findwatch.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findwatch_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_find\app_window_findwatch_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_flashlight\app_window_flashlight.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_flashlight\app_window_flashlight_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_flashlight\app_window_tptest.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_games\app_window_games_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_games\app_window_game_2048.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_games\app_window_game_dadishu.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_games\app_window_motion_game.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_heartrate\app_window_heartrate.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_heartrate\app_window_heartrate_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_heartrate\app_window_heartrate_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_language\app_window_language.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_language\app_window_language_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lcd_timeout\app_window_lcd_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lcd_timeout\app_window_lcd_time_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lcd_timeout\app_window_wakey_time.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lcd_timeout\app_window_wakey_time_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_localmusic\app_window_localmusic.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_localmusic\app_window_localmusic_filelist.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_localmusic\app_window_localmusic_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lowpower\app_window_lowpower.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lowpower\app_window_lowpower_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_lowpower\app_window_lowpower_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_common.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_delete_all.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_delete_all_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_info.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_info_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_info_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_list_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_messgae\app_window_message_list_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\app_window_moreinfo.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\app_window_moreinfo_style.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\app_window_moreinfo_style_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\app_window_moreinfo_style_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\cell\app_window_moreinfo_apple_cellular.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\cell\app_window_moreinfo_apple_cellular_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\cell\app_window_moreinfo_cellular.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\cell\app_window_moreinfo_cellular_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\kaleidoscope\app_window_moreinfo_kaleidoscope.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\kaleidoscope\app_window_moreinfo_kaleidoscope_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\list\app_window_moreinfo_icon_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\list\app_window_moreinfo_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\list\app_window_moreinfo_list_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\loop\app_window_moreinfo_loop.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\loop\app_window_moreinfo_loop_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\matrix\app_window_moreinfo_matrix.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\matrix\app_window_moreinfo_matrix_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\ring\app_window_moreinfo_ring.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\ring\app_window_moreinfo_ring_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\ring\app_window_moreinfo_ring_two.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_more_info\ring\app_window_moreinfo_ring_two_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_music\app_window_music.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_music\app_window_music_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_music\app_window_music_vol.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_notification\app_window_notification_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_notification\app_window_notification_setting_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_notification\app_window_notification_setting_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_no_wear\app_window_no_wear.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_no_wear\app_window_no_wear_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_no_wear\app_window_no_wear_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_o2\app_window_o2.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_o2\app_window_o2_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_o2\app_window_o2_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_ota\app_window_ota.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_ota\app_window_ota_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_ota\app_window_ota_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_pair\app_window_pair.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_pair\app_window_pair_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_pair\app_window_pair_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_setting_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_setting_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_status.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_password\app_window_password_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_personnal\app_window_personnal.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_personnal\app_window_personnal_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_personnal\app_window_personnal_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_photograph\app_window_photograph.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_photograph\app_window_photograph_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_photograph\app_window_photograph_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_warn.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_warn_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_warn_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_yesno.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_yesno_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_popup\app_window_popup_yesno_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_common.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_list.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_list_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_list_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_qr_card\app_window_qr_card_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_quick\app_window_quick.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_quick\app_window_quick_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_quick\app_window_quick_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reboot\app_window_reboot.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reboot\app_window_reboot_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reboot\app_window_reboot_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_record\app_window_record.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_record\app_window_record_filelist.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_record\app_window_record_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reset\app_window_reset.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reset\app_window_reset_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_reset\app_window_reset_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_define.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_define_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_define_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_setting_click.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_setting_click_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_setting_click_type.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_key_setting_click_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_common.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_common_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_common_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_screen.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_screen_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_screen_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_setting\app_window_setting_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shake\app_window_shake.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shake\app_window_shake_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shake\app_window_shake_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shutdown\app_window_power_off.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shutdown\app_window_power_off_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shutdown\app_window_power_off_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_shutdown\app_window_shutdown.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_siri\app_bluetooth_connection_window.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_siri\app_siri_window.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sleep\app_window_sleep.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sleep\app_window_sleep_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sleep\app_window_sleep_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos_setting.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos_setting_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos_setting_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sos\app_window_sos_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sound_touch\app_window_sound_touch.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sound_touch\app_window_sound_touch_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sound_touch\app_window_sound_touch_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_appSport.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_appSport_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sportlist.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sportlist_bg.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sportlist_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sport_data.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sport_data_exit.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sport_data_exit_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_sport\app_window_sport_data_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_steps\app_window_steps.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_steps\app_window_steps_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_steps\app_window_steps_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_stopwatch\app_window_stopwatch.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_stopwatch\app_window_stopwatch_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_stopwatch\app_window_stopwatch_record_detail_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_stopwatch\app_window_stopwatch_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_telephone_set\app_window_telephone_set.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_telephone_set\app_window_telephone_set_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_telephone_set\app_window_telephone_set_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_aging_test.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_battery.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_factory.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_factory_ageing.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_factory_ageing_test4.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_factory_report.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_factory_worker.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_gsensor.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_hidtest.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_hrtest.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_hrtest_set_bio.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_lcdrgb.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_pwrloss.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_stand_alone.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_test\app_window_tptst.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_titlebar\application_titlebar.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_titlebar\application_titlebar_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_titlebar\application_titlebar_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_usb\app_window_usb.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_usb\app_window_usb_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_usb\app_window_usb_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_vib\app_window_vib.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_vib\app_window_vib_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_vib\app_window_vib_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_weather\app_window_wear.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_weather\app_window_weather.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_weather\app_window_weather_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_weather\app_window_weather_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget_delete.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget_delete_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget_delete_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_widget\app_window_widget_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_alarm.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_alarm_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_alarm_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_info.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_info_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_info_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_layout.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\application\app_woman\app_window_woman_ui.h">
+      <Filter>ui_app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\picture\picture.h">
+      <Filter>picture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\picture\picture_all_data.h">
+      <Filter>picture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\picture\picture_data.h">
+      <Filter>picture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\language\language.h">
+      <Filter>language</Filter>
+    </ClInclude>
+    <ClInclude Include="..\language\language_table.h">
+      <Filter>language</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\board_cfg.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\board_config.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\board_global_cfg.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_contact.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_flash.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_flash_16M.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_flash_8M.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_flash_CF19.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_message.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_qr_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_sensor.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_test.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_user_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_manager_watchface.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_passthrough.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_receive_package.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_transfer.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\data_transfer_package.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\debug_info.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\dev_version.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\factory_test.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\feature.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\feature_define.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\os_mem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ota.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ota_updata.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pid_type.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\pin_define.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\sport_type.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_all.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_math.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_math_geometry.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_mem.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_sort.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\system_util_string.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\sys_init.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\watchface.h">
+      <Filter>common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\gui_lib\barcode_lib\barcode_code128.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\barcode_lib\barcode_code128c.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\font_lib\font_bound.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\font_lib\font_cfont.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\font_lib\font_convert.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\font_lib\font_lang.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\font_lib\font_lang_arabic.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_config_main_window.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_download_watchface.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_idle_watchface.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_key.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_lowpower.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_password.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_touch.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_touch_gesture.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_touch_gesture_swipe.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_touch_gesture_swipe_cover.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_touch_gesture_tween.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_window_flasherr.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\application\application_window_pop.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_barcode.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_canvas.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_character.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_dlwf.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_aa.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_arc.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_circle.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_picture.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_pointer16.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_pointer8.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_polygon.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_lib_scale.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_picture.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_pointer.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_draw_qrcode.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_render.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_render_cache.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_render_g2d.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_screen_g2d.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_screen_part.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\display\gui_display_screen_whole.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\drivers\gui_drivers_display.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\drivers\gui_drivers_flash.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\drivers\gui_drivers_lcd.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\events\gui_event_core.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\events\gui_event_core_list.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\gui_core.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_barcode.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_canvas.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_clock.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_image.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_list.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_number.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_image_progress.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_label.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_label_scroll.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_layout_cellular.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_layout_item.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_pointer.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_progress_bar.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_qrcode.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_scale.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_box_textbox.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_cache.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_animation.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_base.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_batt_icon.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_batt_label.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_bt_icon.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_chart.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_date.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_image_9slice.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_ring.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_scrolltext.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_switch.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_time.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_time_hour.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_control\gui_surface_control_time_min.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_apple_cellular.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_card.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_cellular.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_flow.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_gridview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_listview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_loop.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_matrix.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_pageview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_center.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_center_config.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_ring_config.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_scroll.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_tween_angle.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_layout_tween_position.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_node.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_node_scale.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\surface\gui_surface_scale.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_apple_cellular.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_card.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_cellular.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_flow.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_gridview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_listview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_loop.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_matrix.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_pageview.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_rebound.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_ring.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_ring_center.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\touch\gui_touch_layout_scroll.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\utility\gui_util_screen.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\utility\gui_util_text_string.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\utility\gui_util_tween.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\window\gui_window.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\window\gui_window_history.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\window\gui_window_history_cache.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\gui_lib\window\gui_window_swipe.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\modules.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_bitstream.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_mask.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_mmask.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_mqrspec.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_qrinput.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_qrspec.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_rsecc.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui_lib\qrencode_lib\qrencode_split.c">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\application_config\application_config.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\application_config\application_config_app_info.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\application_config\application_config_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_about\app_window_about.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_about\app_window_about_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_about\app_window_about_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_clock.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_clock_set.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_clock_set_data.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_clock_set_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_drink.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_sedentary.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alarm\app_window_alarm_target_finish.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_barcode.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_bind.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_helper.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_loading.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_menu.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_qrcode.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_alipay\app_window_alipay_startup.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_always\app_window_aod_dial.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_always\app_window_aod_dial_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_always\app_window_aod_dial_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_battery\app_window_battery.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_battery\app_window_battery_chart.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_battery\app_window_battery_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_battery\app_window_battery_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_bp\app_window_bp.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_bp\app_window_bp_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_bp\app_window_bp_measur.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_bp\app_window_BP_measur_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_bp\app_window_bp_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_animate.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_hz.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_hz_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_hz_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_start.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_start_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_start_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_time_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_time_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_braeth\app_window_breath_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_brightness\app_window_brightness.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_brightness\app_window_brightness_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_brightness\app_window_brightness_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calculator\app_window_calculator.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calculator\app_window_calculator_convert.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calculator\app_window_calculator_key.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calculator\app_window_calculator_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calculator\app_window_calculator_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calendar\app_window_calendar.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calendar\app_window_calendar_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_calendar\app_window_calendar_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\app_window_call.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\app_window_call_common.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\app_window_call_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\app_window_call_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\clog\app_window_call_clog.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\clog\app_window_call_clog_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\clog\app_window_call_clog_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\comming\app_window_call_comming.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\comming\app_window_call_comming_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\comming\app_window_call_comming_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\dial\app_window_call_dial.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\dial\app_window_call_dial_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\dial\app_window_call_dial_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\list\app_window_call_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\list\app_window_call_list_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\outgoing\app_window_call_outgoing.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\outgoing\app_window_call_outgoing_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\outgoing\app_window_call_outgoing_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\phb\app_window_call_phonebook.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\phb\app_window_call_phonebook_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\phb\app_window_call_phonebook_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\reply\app_window_call_reply.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\reply\app_window_call_reply_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\vol\app_window_call_vol.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_call\vol\app_window_call_vol_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger\app_window_charger.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger\app_window_charger_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger\app_window_charger_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger_lamp\app_window_charger_lamp.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger_lamp\app_window_charger_lamp_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger_lamp\app_window_charger_set.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_charger_lamp\app_window_charger_set_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_my_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_my_time_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_time_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_time_out.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_time_out_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_countdown\app_window_countdown_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_cover_bg\app_window_cover_bg.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_cover_bg\app_window_cover_bg_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_cover_bg\app_window_cover_bg_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb_setting_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb_setting_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_disturb\app_window_disturb_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findphone.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findphone_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findphone_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findwatch.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findwatch_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_find\app_window_findwatch_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_flashlight\app_window_flashlight.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_flashlight\app_window_flashlight_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_flashlight\app_window_tptest.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_games\app_window_games_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_games\app_window_game_2048.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_games\app_window_game_dadishu.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_games\app_window_motion_game.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_heartrate\app_window_heartrate.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_heartrate\app_window_heartrate_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_heartrate\app_window_heartrate_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_language\app_window_language.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_language\app_window_language_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lcd_timeout\app_window_lcd_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lcd_timeout\app_window_lcd_time_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lcd_timeout\app_window_wakey_time.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lcd_timeout\app_window_wakey_time_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_localmusic\app_window_localmusic.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_localmusic\app_window_localmusic_filelist.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_localmusic\app_window_localmusic_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lowpower\app_window_lowpower.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lowpower\app_window_lowpower_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_lowpower\app_window_lowpower_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_common.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_delete_all.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_delete_all_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_info.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_info_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_info_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_list_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_messgae\app_window_message_list_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\app_window_moreinfo.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\app_window_moreinfo_style.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\app_window_moreinfo_style_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\app_window_moreinfo_style_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\cell\app_window_moreinfo_apple_cellular.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\cell\app_window_moreinfo_apple_cellular_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\cell\app_window_moreinfo_cellular.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\cell\app_window_moreinfo_cellular_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\kaleidoscope\app_window_moreinfo_kaleidoscope.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\kaleidoscope\app_window_moreinfo_kaleidoscope_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\list\app_window_moreinfo_icon_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\list\app_window_moreinfo_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\list\app_window_moreinfo_list_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\loop\app_window_moreinfo_loop.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\loop\app_window_moreinfo_loop_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\matrix\app_window_moreinfo_matrix.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\matrix\app_window_moreinfo_matrix_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\ring\app_window_moreinfo_ring.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\ring\app_window_moreinfo_ring_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\ring\app_window_moreinfo_ring_two.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_more_info\ring\app_window_moreinfo_ring_two_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_music\app_window_music.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_music\app_window_music_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_music\app_window_music_vol.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_notification\app_window_notification_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_notification\app_window_notification_setting_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_notification\app_window_notification_setting_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_no_wear\app_window_no_wear.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_no_wear\app_window_no_wear_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_no_wear\app_window_no_wear_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_o2\app_window_o2.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_o2\app_window_o2_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_o2\app_window_o2_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_ota\app_window_ota.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_ota\app_window_ota_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_ota\app_window_ota_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_pair\app_window_pair.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_pair\app_window_pair_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_pair\app_window_pair_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_setting_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_setting_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_status.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_password\app_window_password_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_personnal\app_window_personnal.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_personnal\app_window_personnal_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_personnal\app_window_personnal_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_photograph\app_window_photograph.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_photograph\app_window_photograph_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_photograph\app_window_photograph_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_warn.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_warn_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_warn_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_yesno.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_yesno_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_popup\app_window_popup_yesno_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_common.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_list.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_list_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_list_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_qr_card\app_window_qr_card_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_quick\app_window_quick.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_quick\app_window_quick_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_quick\app_window_quick_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reboot\app_window_reboot.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reboot\app_window_reboot_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reboot\app_window_reboot_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_record\app_window_record.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_record\app_window_record_filelist.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_record\app_window_record_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reset\app_window_reset.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reset\app_window_reset_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_reset\app_window_reset_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_define.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_define_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_define_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_setting_click.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_setting_click_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_setting_click_type.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_key_setting_click_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_common.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_common_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_common_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_screen.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_screen_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_screen_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_setting\app_window_setting_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shake\app_window_shake.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shake\app_window_shake_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shake\app_window_shake_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shutdown\app_window_power_off.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shutdown\app_window_power_off_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shutdown\app_window_power_off_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_shutdown\app_window_shutdown.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_siri\app_bluetooth_connection_window.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_siri\app_siri_window.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sleep\app_window_sleep.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sleep\app_window_sleep_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sleep\app_window_sleep_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos_setting.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos_setting_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos_setting_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sos\app_window_sos_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sound_touch\app_window_sound_touch.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sound_touch\app_window_sound_touch_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sound_touch\app_window_sound_touch_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_appSport.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_appSport_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sportlist.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sportlist_bg.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sportlist_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sport_data.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sport_data_exit.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sport_data_exit_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_sport\app_window_sport_data_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_steps\app_window_steps.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_steps\app_window_steps_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_steps\app_window_steps_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_stopwatch\app_window_stopwatch.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_stopwatch\app_window_stopwatch_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_stopwatch\app_window_stopwatch_record_detail_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_stopwatch\app_window_stopwatch_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_telephone_set\app_window_telephone_set.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_telephone_set\app_window_telephone_set_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_telephone_set\app_window_telephone_set_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_aging_test.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_battery.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_factory.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_factory_ageing.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_factory_ageing_test4.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_factory_report.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_factory_worker.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_gsensor.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_hidtest.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_hrtest.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_hrtest_set_bio.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_lcdrgb.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_pwrloss.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_stand_alone.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_test\app_window_tptst.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_titlebar\application_titlebar.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_titlebar\application_titlebar_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_titlebar\application_titlebar_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_usb\app_window_usb.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_usb\app_window_usb_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_usb\app_window_usb_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_vib\app_window_vib.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_vib\app_window_vib_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_vib\app_window_vib_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_weather\app_window_wear.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_weather\app_window_weather.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_weather\app_window_weather_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_weather\app_window_weather_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget_delete.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget_delete_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget_delete_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_widget\app_window_widget_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_alarm.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_alarm_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_alarm_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_info.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_info_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_info_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_layout.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\application\app_woman\app_window_woman_ui.c">
+      <Filter>ui_app</Filter>
+    </ClCompile>
+    <ClCompile Include="ui_sim_pc_common.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\picture\picture.c">
+      <Filter>picture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\picture\picture_all_data.c">
+      <Filter>picture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\picture\picture_custom.c">
+      <Filter>picture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\picture\picture_data.c">
+      <Filter>picture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\language\language.c">
+      <Filter>language</Filter>
+    </ClCompile>
+    <ClCompile Include="..\language\language_table.c">
+      <Filter>language</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\picture\font.bin">
+      <Filter>picture</Filter>
+    </None>
+    <None Include="..\picture\picture.bin">
+      <Filter>picture</Filter>
+    </None>
+    <None Include="..\picture\picture_custom.bin">
+      <Filter>picture</Filter>
+    </None>
+    <None Include="..\picture\picture_font_merge.bin">
+      <Filter>picture</Filter>
+    </None>
   </ItemGroup>
 </Project>
