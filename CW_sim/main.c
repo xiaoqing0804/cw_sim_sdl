@@ -11,7 +11,7 @@ int main() {
     }
 
     // 创建窗口
-    SDL_Window* window = SDL_CreateWindow("Green Window", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 800, 600, SDL_WINDOW_SHOWN);
+    SDL_Window* window = SDL_CreateWindow("Green Window", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 390, 450, SDL_WINDOW_SHOWN);
     if (window == NULL) {
         printf("窗口创建失败: %s\n", SDL_GetError());
         return 1;
