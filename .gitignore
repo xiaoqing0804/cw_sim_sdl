@@ -50,3 +50,6 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+CW_sim/x64/Debug/
+CW_sim/.vs/cw_sim/FileContentIndex/
+CW_sim/.vs/cw_sim/v17/
